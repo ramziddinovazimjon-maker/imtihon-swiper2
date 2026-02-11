@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <img src="img/MOVIES!.png" alt="Logo" class="img">
+
+        <div class="controls">
+            <input type="search" placeholder="Search kino" class="inputSearch" />
+            <select class="selectSort">
+                <option value="all">All Movies</option>
+                <option value="ABC">A-Z </option>
+                <option value="CBA">Z-A </option>
+            </select>
+            <button class="btn">search</button>
+        </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/avatar 3.png" alt="Movie 1"></div>
+                <div class="swiper-slide"><img src="img/terminator.png" alt="Movie 2"></div>
+                <div class="swiper-slide"><img src="img/avatar 3.png" alt="Movie 3"></div>
+                <div class="swiper-slide"><img src="img/terminator.png" alt="Movie 4"></div>
+                <div class="swiper-slide"><img src="img/avatar 3.png" alt="Movie 5"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+  <div class="kartochki" id="movieWrapper"></div>
+    <!-- <div class="card">
+      <img src="img/red man.jpg" alt="" class="img2">
+      <h1>Patton Oswalt:Annihilation</h1>
+      <div>
+        <p>7.4</p>
+        <p>2017 </p>
+        <p>2017</p>
+      </div>
+      <h1>Uncategorized</h1>
+      <button class="btn1">Uncategorized</button>
+    </div> -->
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
